@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Hola mundo</title>
+    <style>
+      #titulo {
+      text-align:center;     
+      }
+      .definicion{
+      background-color: silver;
+      }
+      p{
+      font-size:x-large; 
+        color:red;
+      }
+      @media screen and(min-width:600px){
+     	 p strong{
+     	 color:blue
+     	 }
+    	  p.definicion{
+     	 background-color: white;
+     	 }
+      }
+    </style>
+           
+  </head>
+  <body class="definicion" onclick="alert('quita tus manos de encima')">
+    <p id="titulo" title="eso es un hola mundo">Hola <strong>Mundo</strong></p>
+    
+    <!-- esto es la definición de Hola Mundo -->
+    
+    	<p class="definicion"> En informática, un programa <b>Hola mundo</b> es el que
+    imprime el texto «¡Hola, mundo!» en un dispositivo de visualización, en la
+    mayoría de los casos una pantalla de monitor. Este programa suele ser usado
+    como introducción al estudio de un lenguaje de programación siendo un
+    primer ejercicio típico, y se considera fundamental desde el punto de vista
+        didáctico.</p>
+     
+    <p class="definicion">  En algunos lenguajes, configurar un conjunto de herramientas básicas
+      completo desde cero hasta el punto en que los programas triviales puedan
+      ser compilados y ejecutados involucra una cantidad de trabajo sustancial.
+      Por esta razón, generalmente es usado un programa muy simple para probar
+      un nuevo conjunto de herramientas.</p>
+    <p>
+    
+  </body>
+</html>

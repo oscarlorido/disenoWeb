@@ -1,0 +1,18 @@
+a{
+ padding: 20px;
+ border: dotted 1px;
+}
+
+a:hover{
+  background-color: yellow;
+}
+a:active{
+  background-color: green;
+  padding: 100px;
+}
+@media screen and (max-width: 500px){
+  img{
+      display: none;  
+     }
+}
+  

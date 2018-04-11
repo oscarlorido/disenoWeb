@@ -1,0 +1,14 @@
+p{
+  color:red;
+}
+
+nav a{
+  color:green;
+  padding: 50px;
+  border: dotted 1px blue;  
+   
+}
+p+p{
+  
+  background: yellowgreen;
+}

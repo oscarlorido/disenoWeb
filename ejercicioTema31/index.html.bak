@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Indice</title>
+  <style>
+      body {
+        width: 80%;    
+        margin: 0 auto;
+        font: 10pt/1.5em Helvetica,"Helvetica neue", Arial, sans-serif;   
+        background: #eee9df url(../images/tile1.png) center top repeat;
+      }
+      h1 {
+        font: 18pt Helvetica,"Helvetica neue", Arial, sans-serif;    
+        text-transform: uppercase;
+        color: #e5b7ad;    
+        padding-top: 30px ;
+      }
+      body &gt; header {    
+        padding:0px;
+        text-align: center;  
+        overflow: auto;
+      }
+      body &gt; header &gt; h1 {
+        float:left;
+        width: 75%;
+        font: 32pt Helvetica,"Helvetica neue", Arial, sans-serif;    
+        text-align: center;
+      }
+      body &gt; header &gt; picture {
+        float:left;
+        width: 20%;
+      }
+      body &gt; header &gt; picture &gt; img {
+        width: 100%;
+      }
+
+      body &gt; section {	
+        float: right;
+        width: 70%;	
+        padding-left: 20px;
+        margin: 0 0 20px 0px;	
+        border-left: 2px dotted #b2a497;
+      }
+      body &gt; section h2 {
+        font: 14pt Helvetica,"Helvetica neue", Arial, sans-serif;	
+        font-weight: lighter;
+        text-transform: uppercase;	color: #493831;
+        padding-bottom: 10px;	
+	margin: 0;
+      }      
+      nav { 
+	text-align: center;		
+      }
+      nav a{
+	padding: 30px;
+      }
+      aside{	
+        float: left;
+        width: 20%;	
+        min-height: 480px;
+        margin: 0 0 20px 0;
+      }
+      footer{	clear:both;
+        height: 100px;	
+        padding: 10px;
+        color:#200f08 ;	
+        background:#ddd3bf;
+          /*Opacity*/
+        filter:alpha(opacity=50); /* msie */  	
+        -moz-opacity: 0.50; /* firefox 1.0 */  
+        -khtml-opacity: 0.50; /* webkit */  	
+        opacity: 0.50; /* css 3 */
+        /*Gradient*/
+        background-image: -moz-linear-gradient(top, #ddd3bf, #bcae91); /* FF3.6 */	
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #ddd3bf),color-stop(1, #bcae91)); /* Saf4+, Chrome *
+        filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd3bf', EndColorStr='#bcae91');   /* IE6,IE7 */	
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd3bf', EndColorStr='#bcae91')"; /* IE8 */
+        /*Round corners*/
+        -moz-border-radius: 12px; /* FF1+ */	-webkit-border-radius: 12px; /* Saf3+, Chrome */
+        border-radius: 12px; /* Opera 10.5, IE 9 */
+      }
+        form div 
+      {
+        padding:10px;
+      }
+      form div &gt; label
+      {
+        display: block;
+        width: 100%;
+      }
+      </style>
+</head>
+<body>
+  <header>
+
+<h1>BIENVENIDO A la WEB de TE HAGO UNA WEB</h1>
+  </header>
+<picture> <img> <p><img src="../imagenes/foto.jpg"> </p></picture>
+
+<nav>
+
+	<a href="../ejerciciosTema2/nosotros.html">Nosotros</a>
+  <a href="../ejerciciosTema2/nuestrosServicios.html">Nuestros Servicios</a>
+</nav>
+  
+<aside>
+
+  <h2> Conócenos mejor</h2>
+
+	<section>
+
+		<h3>Noticias destacadas</h3>
+	</section>
+	<section>
+
+		<h3>Colaboradores</h3>
+		<p>[...]
+
+		</p>
+    </section>
+</aside>
+  <section>
+
+		<header>
+			<h1>Título del artículo</h1>
+			<h2>Subtitulo</h2>
+    </header>
+    
+		<article>
+			<h3>Título</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis placerat dolor pellentesque tincidunt. Morbi lectus eros, ultrices non ex non, dapibus semper leo. Aliquam egestas laoreet ex sit amet consequat. Nulla tempus, ligula pulvinar bibendum auctor, libero justo imperdiet tellus, nec posuere tellus lectus quis leo. Cras sapien sem, lobortis et vestibulum vitae, blandit id tortor. In ullamcorper ultricies magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Duis rutrum justo et felis consectetur porttitor.
+			</p>
+    </article>
+    <article>
+			<h3>Título</h3>
+			<p>Suspendisse sed enim nisl. Nunc at consectetur tortor, et pulvinar lectus. Integer porta augue leo, sit amet consequat neque posuere rutrum. Nunc sodales, felis ac fringilla laoreet, nisl lectus elementum nulla, non convallis elit ipsum pharetra est. Mauris in nunc consectetur, faucibus enim et, feugiat nunc. Maecenas elementum felis non lacinia porta. Donec feugiat neque non lorem vulputate, ut placerat orci pellentesque. Nunc pharetra, neque et accumsan consectetur, arcu tellus euismod nunc, quis vulputate lectus lectus sed ligula. Vivamus luctus augue consectetur nunc finibus, sit amet posuere
+
+			</p>
+		</article>	
+    <footer>
+			<h4>Autor </h4>
+			<p> <strong>Lionel Messi</strong></p>
+    </footer>
+	</section>
+  
+  <section>    
+		<header>
+			<h1>Título del artículo</h1>
+			<h2>Subtitulo</h2>
+    </header>
+
+		<article>
+			<h3>Título</h3>
+      <p>Mauris ultricies pulvinar dui tempus scelerisque. Etiam efficitur velit sodales, porta nunc et, semper odio. Quisque ut condimentum nisl. Aenean eu felis eget purus imperdiet sagittis vitae eget ipsum. Duis fermentum diam finibus lectus commodo, quis faucibus magna elementum. Sed sollicitudin vehicula turpis, vel venenatis diam euismod eget. Morbi auctor hendrerit tortor, tincidunt iaculis erat condimentum sed. Sed enim urna, tristique eu nulla a, consectetur efficitur tellus.
+    </article>
+
+		<article>
+			<h3>Título</h3>
+			<p>Nam pretium venenatis nibh, vestibulum facilisis augue malesuada a. Donec non tortor id urna blandit aliquet. Vestibulum vitae dictum nibh, at volutpat massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer sed venenatis urna, sed facilisis lectus. Nam sit amet nunc non felis vulputate efficitur vel vitae velit. Sed pellentesque erat nulla, ut ornare diam efficitur malesuada. Pellentesque fringilla eros sed neque porttitor, aliquam dapibus dui dignissim. Curabitur aliquet augue nulla, sed scelerisque eros ultricies eu. Integer quis tellus sodales, pulvinar lacus quis, volutpat tortor. Mauris venenatis ultrices ornare. Sed rhoncus magna non mauris aliquet pharetra. Morbi pretium imperdiet porta. 
+		</article>	
+  
+		<footer>
+			<h4>Autor </h4>
+			<p><strong>Andrés Iniesta</strong></p>
+    </footer>
+    
+  </section> 
+  <footer>
+Copyright ©
+  </footer>
+  
+
+</body>
+</html>
